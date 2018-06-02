@@ -1,0 +1,12 @@
+{% import "bootstrap/wtf.html" as wtf %}
+{% extends "base.html" %}
+{% block title %}Add Blacklisted Website{% endblock %}
+{% block body %}
+<div class="content-section">
+  <div class="center">
+    <h1>Add Blacklisted Website</h1>
+    <br/>
+    {{ wtf.quick_form(form) }}
+  </div>
+</div>
+{% endblock %}
